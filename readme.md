@@ -4,7 +4,7 @@ Criar uma base mysql com o nome 'node_testdb';
 
 criar o arquivo no diretorio - > sciprt.js e adicionar ao package.json como exemplo abaixo:
 
-
+```
 {
   "name": "crud",
   "version": "1.0.0",
@@ -22,7 +22,7 @@ criar o arquivo no diretorio - > sciprt.js e adicionar ao package.json como exem
     "mongoose": "^6.7.3",
     "mysql": "^2.18.1"
   }
-
+```
 
 
 1. npm init
@@ -34,8 +34,8 @@ criar o arquivo no diretorio - > sciprt.js e adicionar ao package.json como exem
 
 TEstar utilizando POSTMAN ou INSOMNIA
 
-CREATE http://localhost:8080/learners
-READ http://localhost:8080/learners
-UPDATE http://localhost:8080/learners
-DELETEhttp://localhost:8080/learners/2
+CREATE: http://localhost:8080/learners
+READ: http://localhost:8080/learners
+UPDATE: http://localhost:8080/learners
+DELETE: http://localhost:8080/learners/2
 
